@@ -1,6 +1,6 @@
 {
   "name": "until-later",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Create a temporary object to assign properties and call functions on while you wait for the real thing",
   "main": "index.mjs",
   "scripts": {
