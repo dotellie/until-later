@@ -30,5 +30,11 @@ export default function untilLater() {
     });
 }
 
-const g = global || window;
-g.untilLater = g;
+const g = (() => {
+    if (typeof global !== "undefined") {
+        return global;
+    } else {
+        return window;
+    }
+})();
+g.untilLater = untilLater;
