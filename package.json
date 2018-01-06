@@ -1,0 +1,11 @@
+{
+  "name": "until-later",
+  "version": "0.1.0",
+  "description": "Create a temporary object to assign properties and call functions on while you wait for the real thing",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "node --experimental-modules test.mjs"
+  },
+  "author": "magnonellie",
+  "license": "MIT"
+}
